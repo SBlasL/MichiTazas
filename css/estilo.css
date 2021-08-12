@@ -162,7 +162,7 @@ section {
   width: 70%;
   height: 800px; }
   .section__2 h2 {
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 50px; }
   .section__2 p {
     padding-left: 20px;
@@ -234,8 +234,10 @@ body {
 #grilla {
   display: grid;
   grid-template-columns: 20% 50% 30%;
-  grid-template-rows: 250px 800px 0px;
-  grid-template-areas: "header header aside" "main main aside" "footer footer footer"; }
+  grid-template-rows: 250px 400px 0px;
+  grid-template-areas: "header header aside"
+ "main main aside"
+ "footer footer footer"; }
 
 #hijoUno {
   background-color: palegoldenrod;
@@ -254,7 +256,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    font-size: 15px; }
+    font-size: 20px; }
 
 #hijoCinco {
   background-image: linear-gradient(to left, #f35b04, #f7b801);
@@ -301,13 +303,15 @@ body {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 250px 800px;
-  grid-template-areas: "banner banner" "aside main"; }
+  grid-template-areas: "banner banner"
+ "aside main"; }
 
 #grillaContacto {
   display: grid;
   grid-template-columns: 70% 30%;
   grid-template-rows: 0px 750px;
-  grid-template-areas: "banner banner" "main aside"; }
+  grid-template-areas: "banner banner"
+ "main aside"; }
 
 #hijoUnoContacto {
   background-color: #7678ed;
