@@ -178,7 +178,7 @@ section {
 	width: 70%;
 	height: 800px;
 	h2 {
-		padding-top: 50px;
+		padding-top: 20px;
 		font-size: 50px;
 	}
 	p {
@@ -252,7 +252,7 @@ body {
 #grilla {
 	display: grid;
 	grid-template-columns: 20% 50% 30%;
-	grid-template-rows: 250px 800px 0px;
+	grid-template-rows: 250px 400px 0px;
 	grid-template-areas: "header header aside"
                                     "main main aside"
                                     "footer footer footer";
@@ -274,7 +274,7 @@ body {
 		padding-left: 20px;
 		padding-right: 20px;
 		padding-top: 20px;
-		font-size: 15px;
+		font-size: 20px;
 	}
 }
 #hijoCinco {
